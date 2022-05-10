@@ -1,0 +1,87 @@
+body{
+    font-family: tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#one{
+    background: black;
+    height:50px ;
+}
+#khong{
+    background: blanchedalmond;/*màu nền*/
+    height: 280px;/*độ cao*/
+    width: 1000px;/*dộ rộng*/
+}
+#two #three{
+width: 800px;
+background: #ccc;
+float: left;
+min-height: 400px;
+}
+#two #four{
+    width: 200px;
+    background: blue;
+    float: left;
+    min-height: 400px;
+}
+#six
+{
+    background: #000;
+    width: 1000px;
+    text-align: center;/**căn chử ra giữa*/
+    height: 60px;
+    color: #fff;
+   clear :left;
+}
+#menu ul{
+    margin :0px;
+    padding :0px;
+}
+#menu ul li{
+    list-style: none;
+    float: left;/*nằm bên trái ngang hàng*/
+}
+
+#menu ul li a
+{
+  text-decoration: none;/*liên kết không có gạch chân */
+   display: block;
+   height:  50px;
+   line-height: 50px;
+   color:#fff;
+   padding :0px 50px 0px 50px;/*khoảng cách giữa các liên kết*/
+   border-right: 1px solid,#fff;
+}
+#menu ul li a.name
+{
+    background: blue;
+    padding: 0px,20px,0px,20px;
+   
+}
+#khong img{
+    background: blanchedalmond;/*màu nền*/
+    height: 280px;/*độ cao*/
+    width: 1000px;/*dộ rộng*/
+}
+#two #three ul{
+    margin:0px;
+    padding: 0px;
+    
+}
+#two #three ul li{
+    list-style: none;
+    clear: left;
+    border-bottom:2px,solid,blue;
+   
+}
+#two #three ul img{
+  float: left;
+  width: 100px;
+  margin-bottom:  20px;
+  
+}
+#two #three ul h2{
+  color:blue;
+  border-top:2px,solid,blue;
+}
