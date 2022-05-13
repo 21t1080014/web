@@ -5,15 +5,26 @@ body{
     margin: 0px auto;
 }
 #one{
+    
     background: black;
     height:50px ;
 }
+
 #khong{
-    background: blanchedalmond;/*màu nền*/
+    cursor:not-allowed;
+    background-color:orange;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1qjr9F_iqachtgdDgQagG54rPTQ-e25BstA&usqp=CAU");/*màu nền*/
     height: 280px;/*độ cao*/
     width: 1000px;/*dộ rộng*/
+    display:flex;
+    
 }
-#two #three{
+#khong h1{
+    font-size: 80px;
+    margin: auto;
+    color: rgb(153, 47, 47);
+}
+/*#two #three{
 width: 800px;
 background: #ccc;
 float: left;
@@ -24,7 +35,7 @@ min-height: 400px;
     background: blue;
     float: left;
     min-height: 400px;
-}
+}*/
 #six
 {
     background: #000;
@@ -34,9 +45,42 @@ min-height: 400px;
     color: #fff;
    clear :left;
 }
+section {
+    float: left;
+    display: flex;
+    background: #212d1e;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid maroon;
+    width: 240px;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 4;
+    flex-basis: auto;}
+.price{
+    padding: 5px;
+    font-weight:bold;
+    border:bottom 5px;
+    border-radius: 12px;
+    background: #13d1b5;
+    margin-top:auto;
+    text-align: center;
+    color: #fff;
+    width:100%;
+}
+.price:hover{
+    cursor:pointer;
+    list-style: none;
+    background: rgb(113, 32, 32);
+}
 #menu ul{
+    background:#000;
     margin :0px;
     padding :0px;
+    position: fixed;
+    top: 0;
+    right:0;
+    left:0;
 }
 #menu ul li{
     list-style: none;
@@ -50,11 +94,12 @@ min-height: 400px;
    height:  50px;
    line-height: 50px;
    color:#fff;
-   padding :0px 50px 0px 50px;/*khoảng cách giữa các liên kết*/
+   padding :0px 80px 0px 80px;/*khoảng cách giữa các liên kết*/
    border-right: 1px solid,#fff;
 }
-#menu ul li a.name
+#menu ul li a.name:hover
 {
+    cursor:pointer;
     background: blue;
     padding: 0px,20px,0px,20px;
    
@@ -75,13 +120,13 @@ min-height: 400px;
     border-bottom:2px,solid,blue;
    
 }
-#two #three ul img{
+/*#two #three ul img{
   float: left;
   width: 100px;
   margin-bottom:  20px;
   
-}
-#two #three ul h2{
+}*/
+/*#two #three ul h2{
   color:blue;
   border-top:2px,solid,blue;
-}
+}*/
